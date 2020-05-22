@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Chelsea+Market|Permanent+Marker|Mansalva|Roboto|Risque|Bangers|Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: rgb(95, 7, 7);
+}
+
+.navbar-nav {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-nav li {
+  margin-right: 30px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;  
+  font-family: 'Chelsea Market', cursive;
+}
+
+.navbar-nav li a:hover {
+  opacity: 80%;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(105, 105, 105);
+}
+
+#welcome-section h1 {
+  margin-bottom: 80px;
+  color: rgb(0, 129, 180);
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 60px;
+}
+
+#welcome-section p {
+  text-align: center;
+  font-family: "Mansalva", cursive;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(136, 7, 7);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+
+#projects {
+  width: 100%;
+  padding: 25px 0 25px 0;
+  background-color: #064201;
+}
+
+
+
+
+
+
+#contact {
+  width: 100%;
+  padding-top: 25px;
+  background-color: rgb(105, 105, 105);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-logo {
+  display: block;
+}
+
+.container-p p {
+  color: rgba(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(95, 7, 7);
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 30px;
+}
+
+.midias-sociais {
+  display: inline-block;
+}
+
+.midias-sociais img {
+  width: 100px;
+  margin: 10px 50px;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(95, 7, 7);
+}
+
+footer p {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
