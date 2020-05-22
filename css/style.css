@@ -69,17 +69,38 @@
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
-
 #projects {
   width: 100%;
   padding: 25px 0 25px 0;
   background-color: #064201;
 }
 
+#projects .repository {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+#projects .container-repository {
+  width: 250px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #ccc;
+  border: 1px solid #000;
+  border-radius: 12px;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.65);
+}
 
+#projects .image-repository {
+  height: 250px;
+  background-color: tomato;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
 
-
+#projects .text-repository {
+  height: 50px;
+}
 
 #contact {
   width: 100%;
